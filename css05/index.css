@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 10px;
+}
+h1 {
+    width: 100%;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    padding: 0;
+    margin: inherit;
+}
+header > div {
+    display: flex;
+    background-color: #8d8d8d;
+}
+/* PER POSAR ELS SUBTÍTOLS UN AL COSTAT DE L'ALTRE*/
+header > div > h2 {
+    display: inline-block;
+    width: 49%;
+}
+nav {
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+}
+ul {
+    background-color: darkgrey;
+}
+/* POSAR LA LLISTA UNA AL COSTAT DE L'ALTRE FENT-LA INLINE-BLOCK */
+li {
+    display: inline-block;
+    width: 24%;
+    list-style: none;
+}
+/* QUE LES SECTION FACIN UN SALT DE LÍNEA */
+main section {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+/* FER QUE EL QUADRAT SIGUI DE 200 x 200 */
+.square {
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: black;
+    background-color: #a3a3a3;
+}
+.square span {
+    align-self: center;
+}
+.text-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.text-container div {
+    width: 50%;
+}
+.text {
+    padding: 0 10px;
+    display: flex;
+}
+footer {
+    background-color: #aaaaaa;
+    padding: 20px;
+    margin-top: 10px;
+}
